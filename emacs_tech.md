@@ -161,16 +161,42 @@ Emacsには設定ファイルが存在し，そこに自分好みの設定をEma
 さて，いよいよEmacsファイルに設定を記述していこう．  
 最低限これくらいはあるといいだろう．  
 
-``
-;; 憎きメニューバーを消す  
-(menu-bar-mode 0)  
-;; 憎きツールバーを消す  
-(tool-bar-mode 0)  
-;; スタート時にバッファに何も表示しない  
-(setq inhibit-startup-screen t)  
-(setq initial-scratch-message nil)  
-;; 行番号表示  
-(global-linum-mode t)  
-``
+
+	;; 憎きメニューバーを消す  
+	(menu-bar-mode 0)  
+	;; 憎きツールバーを消す  
+	(tool-bar-mode 0)  
+	;; スタート時にバッファに何も表示しない  
+	(setq inhibit-startup-screen t)  
+	(setq initial-scratch-message nil)  
+	;; 行番号表示  
+	(global-linum-mode t)  
+
+  
+使用中の.elをそのまま貼ってもいいのだが，パッケージの関係もあるためやめておく．  
+それにしてもこれだけでは寂しいので，以下にピックアップしたものを追記しておくことにする．  
+
+	
+## Emacsのパッケージ
+
+
+
+## 便利なパッケージ
+
+ - powerline
+
+ - neotree
+ 
+ - undo-tree
+ 
+ - yasnippet
+ 
+ - smartparens
+ 
+ - multiple-cursors
+ 
+ - auto-complete
+
+## 便利なリンク
 
 
